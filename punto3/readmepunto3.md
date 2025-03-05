@@ -1,10 +1,11 @@
-Para este punto se debe crear un codigo que lea la cantidad de palabras que se repiten en un archivo 
+En este punto, se desarrolló un programa en C que permite contar cuántas veces se repite una palabra específica dentro de un archivo de texto. El programa lee el archivo línea por línea, busca la palabra indicada y muestra la cantidad total de coincidencias encontradas.
 
-se realizo un codigo en C para realizar el conteo de las palabras por linea y asi luego mostrarlo por consola la cantidad que encontro
+Se implementó una lógica eficiente para procesar el archivo sin cargarlo completamente en memoria, asegurando un rendimiento óptimo incluso en archivos grandes.
+Ejemplo de Uso
 
+Para compilar y ejecutar el programa, sigue estos pasos en la terminal:
 
-ejemplo de uso:
- gcc punto3.c -o contador
-./contador pruebac.txt arroz
+gcc punto3.c -o contador 
+./contador pruebac.txt arroz 
 
-
+El programa buscará la palabra "arroz" en el archivo pruebac.txt y mostrará cuántas veces aparece en su contenido. 
