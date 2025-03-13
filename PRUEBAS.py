@@ -1,6 +1,6 @@
 def holi_mundi(variable):
-    if variable == "0":
-        print ("EL NUMERO ES CERO")
+    if variable == "11":
+        print ("EL NUMERO ES once")
     else:
         print ("ES ALGUN OTRO NUMERO")
 
